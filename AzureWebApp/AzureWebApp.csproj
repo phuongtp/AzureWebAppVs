@@ -4,6 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/37b7f5ce-4458-4e55-bdd5-5c987dde979e/resourceGroups/TensorRegistration_group/providers/microsoft.insights/components/AzureWebAppThpVs</ApplicationInsightsResourceId>
+    <UserSecretsId>29f00bf9-6424-4aa7-9d58-259070c58bea</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
